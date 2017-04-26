@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75d7d5c-8016-4fca-8713-df9a008c2855" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,10 +23,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
-              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <caret line="16" column="202" lean-forward="false" selection-start-line="16" selection-start-column="202" selection-end-line="16" selection-end-column="202" />
               <folding>
-                <marker date="1493190021790" expanded="true" signature="4030:4092" ph="SELECT usern... authorities" />
-                <marker date="1493190021790" expanded="true" signature="4159:4223" ph="SELECT usern... users" />
+                <marker date="1493190817051" expanded="true" signature="3979:4041" ph="SELECT usern... authorities" />
+                <marker date="1493190817051" expanded="true" signature="4108:4172" ph="SELECT usern... users" />
               </folding>
             </state>
           </provider>
@@ -1097,12 +1096,12 @@
       <workItem from="1493086840425" duration="80000" />
       <workItem from="1493169899721" duration="6643000" />
       <workItem from="1493177119635" duration="3993000" />
-      <workItem from="1493181922478" duration="5067000" />
+      <workItem from="1493181922478" duration="5861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387842000" />
+    <option name="totallyTimeSpent" value="388636000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1582,10 +1581,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="16" column="202" lean-forward="false" selection-start-line="16" selection-start-column="202" selection-end-line="16" selection-end-column="202" />
           <folding>
-            <marker date="1493190021790" expanded="true" signature="4030:4092" ph="SELECT usern... authorities" />
-            <marker date="1493190021790" expanded="true" signature="4159:4223" ph="SELECT usern... users" />
+            <marker date="1493190817051" expanded="true" signature="3979:4041" ph="SELECT usern... authorities" />
+            <marker date="1493190817051" expanded="true" signature="4108:4172" ph="SELECT usern... users" />
           </folding>
         </state>
       </provider>

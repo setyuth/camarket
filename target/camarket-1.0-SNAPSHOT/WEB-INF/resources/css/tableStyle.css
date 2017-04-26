@@ -1,0 +1,15 @@
+.table {
+    table-layout: fixed;
+    overflow: auto;
+}
+.table th {
+    text-align: center;
+}
+.table td {
+    text-align: center;
+    background: whitesmoke;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

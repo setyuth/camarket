@@ -14,9 +14,10 @@
         <!-- Database connection settings -->
         <property name="driverClassName" value="org.postgresql.Driver" />
 
-        <property name="url" value="postgres://eyirnntdgravzt:e532361697d7aa1e6ae08aabbce44289bc94256a14ac9f132d7e152c277d5715@ec2-54-204-0-88.compute-1.amazonaws.com:5432/d3qcgu456utp84" />
+        <property name="url" value="jdbc:postgres://eyirnntdgravzt:e532361697d7aa1e6ae08aabbce44289bc94256a14ac9f132d7e152c277d5715@ec2-54-204-0-88.compute-1.amazonaws.com:5432/d3qcgu456utp84" />
         <property name="username" value="eyirnntdgravzt" />
         <property name="password" value="e532361697d7aa1e6ae08aabbce44289bc94256a14ac9f132d7e152c277d5715" />
+        <property name="ssl" value="true" />
 
         <!--<property name="url" value="jdbc:postgresql://localhost:5432/camarketdb" />
         <property name="username" value="postgres" />

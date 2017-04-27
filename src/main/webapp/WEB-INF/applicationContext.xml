@@ -62,7 +62,7 @@
         <security:intercept-url pattern="/customer/**" access="ROLE_USER" />
         <security:form-login
             login-page="/login"
-            default-target-url="/product/productList/all"
+            default-target-url="/product/productList/"
             authentication-failure-url="/login?error"
             username-parameter="username"
             password-parameter="password" />

@@ -70,7 +70,12 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="<c:url value="/" />#page-top">Camarket</a>
-            <ul class="nav navbar-nav navbar-left">
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="page-scroll" href="<c:url value="/" />#about">About</a>
                 </li>
@@ -80,13 +85,6 @@
                 <li>
                     <a class="page-scroll" href="<c:url value="/"/>#contact">Contact</a>
                 </li>
-            </ul>
-
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
                 <c:if test="${pageContext.request.userPrincipal.name !=null}">
                     <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
                     <li><a href="<c:url value="/j_spring_security_logout" />">Logout</a></li>
@@ -106,12 +104,6 @@
                     </li>
                 </c:if>
             </ul>
-            <%--<form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input class="form-control" ng-model="searchText" placeholder="Search products..." type="search" ng-change="search()" />
-                </div>
-                &lt;%&ndash;<button type="submit" class="btn btn-default">Submit</button>&ndash;%&gt;
-            </form>--%>
         </div>
         <!-- /.navbar-collapse -->
     </div>
